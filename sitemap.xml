@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://stcxzx202001.pages.dev/zh/play/huodong.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-07-19</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://stcxzx202001.pages.dev/zh/play/gaokao.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-07-19</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://stcxzx202001.pages.dev/zh/txt/xijing.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-07-19</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>mailto:2812856215@qq.com</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-07-19</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://stcxzx202001.pages.dev/zh/play/geixuanjiedeshipin.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-07-19</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://stcxzx202001.pages.dev/index.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-07-19</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://stcxzx202001.pages.dev</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-07-19</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+</urlset>

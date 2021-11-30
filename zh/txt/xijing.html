@@ -21,56 +21,9 @@
   </head>
 <!--统一表头-->
     <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="../..">上塘城西中学2020级一班</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"> <a class="nav-link" href="../..">首页 <span class="sr-only">
-			  </span>
-			  </a> 
-			</li>
-		  <li class="nav-item "> <a class="nav-link" href="/zh/play/huodong.html">活动 <span class="sr-only">
-			  </span>
-			  </a> 
-			</li>
-		  <li class="nav-item "><a class="nav-link" href="https://news.stcxzx202001.tk" target="_blank">新闻<span class="sr-only">
-			  </span>
-			  </a>
-			</li>
-      <li class="nav-item "><a class="nav-link" href="/zh/txt/examnews.html">考试通知 <span class="sr-only">(current)</span></a> 
-			</li>
-		  <li class="nav-item active"><a class="nav-link" href="/zh/txt/xijing.html">蹊径文学社 <span class="sr-only">(current)</span></a> 
-			</li>
-		  <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <a class="nav-item dropdown-item " href="/zh/play/gaokao.html">高考应援！<span class="sr-only"></span></a> 
-				   <a class="nav-item dropdown-item " href="/zh/play/geixuanjiedeshipin.html">给萱姐的视频<span class="sr-only"></span></a>
-           <a class="nav-item dropdown-item " href="/zh/play/yuanzu-8th.html">八年级远足 <span class="sr-only"></span></a>
-                <div class="dropdown-divider"></div>
-                   <a class="dropdown-item" href="#">更多</a>
-              </div>
-		  
-	</li>
-	</ul>
-	</div>
-    </nav>
+    <div class="headerpage"></div>
 <!--标题开始-->
-    <header>
-	  <div class="jumbotron" style="background-image:url(../../images/bg.jpg);background-size:auto;background-repeat:round">
-        <div class="container for-首页">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="text-center">上塘城西中学2020级一班</h1>
-              <p class="text-center">Shangtang city west middle school Grade 2020 Class 1</p>
-              <p>&nbsp;</p>
-              <p class="text-center"><a class="btn btn-primary btn-lg" href="../.." role="button">了解我们&nbsp;</a> </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <div class="header2page"></div>
 <section>
   <div style="color:white">
 		 <div class="container">
@@ -112,5 +65,16 @@
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="../../js/popper.min.js"></script> 
     <script src="../../js/bootstrap-4.4.1.js"></script>
+	<script>
+		$(function(){
+        /*公共部分
+         * 导航栏
+         * footer CopyRight
+         */
+        $(".headerpage").load("../../header.html");
+		$(".header2page").load("../../header2.html");
+        $("footerpage").load("footer.html");
+    });
+		</script>
   </body>
 </html>

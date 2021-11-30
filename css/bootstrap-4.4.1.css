@@ -196,6 +196,10 @@ img {
   border-style: none;
 }
 
+.img-exam {
+  text-align: center
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;

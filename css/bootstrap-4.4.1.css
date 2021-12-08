@@ -393,7 +393,9 @@ h6, .h6 {
 .p-useseewo
 {
   margin-left:100px;
-  margin-right:100px;  
+  margin-right:100px;
+  margin-bottom: 100px;
+  color: white;
 }
 .lead {
   font-size: 1.25rem;
@@ -4247,6 +4249,11 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+}
+.nav-link2 {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-align: center;
 }
 
 .nav-link:hover, .nav-link:focus {

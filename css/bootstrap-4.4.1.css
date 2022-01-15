@@ -390,6 +390,21 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+.music2
+{
+   position: relative;
+    height: 33px;
+}
+.music
+{   
+    position: fixed;
+    bottom: 200px;
+    left: 0px;
+    width: 200px;
+    height: 33px;
+    padding: 0px;
+    font-size: 10px;
+}
 .p-useseewo
 {
   margin-left:100px;
@@ -1992,8 +2007,16 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
-}
 
+}
+@media (max-width: 333px) {
+  .music {
+    display: none;
+  }
+  .music2 {
+    display: none;
+  }
+}
 @media (max-width: 767.98px) {
   .table-responsive-md {
     display: block;

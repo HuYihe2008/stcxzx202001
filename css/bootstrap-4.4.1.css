@@ -390,7 +390,7 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-.music2
+.musicgobal
 {
    position: relative;
     height: 33px;
@@ -398,7 +398,7 @@ h6, .h6 {
 .music
 {   
     position: fixed;
-    bottom: 200px;
+    bottom: 415px;
     left: 0px;
     width: 200px;
     height: 33px;
@@ -2009,7 +2009,7 @@ pre code {
   }
 
 }
-@media (max-width: 333px) {
+@media (max-width: 350px) {
   .music {
     display: none;
   }

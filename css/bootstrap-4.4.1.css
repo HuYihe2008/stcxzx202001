@@ -393,15 +393,15 @@ h6, .h6 {
 .musicgobal
 {
    position: relative;
-    height: 33px;
+    height: 430px;
 }
 .music
 {   
     position: fixed;
-    bottom: 415px;
+    bottom: 30px;
     left: 0px;
-    width: 200px;
-    height: 33px;
+    width: 310px;
+    height: 430px;
     padding: 0px;
     font-size: 10px;
 }
